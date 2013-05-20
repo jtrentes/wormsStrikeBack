@@ -7,8 +7,8 @@ var Canvas = Class.extend({
 	init: function()
 	{
 		this.element = $("#main");
-
 		this.context = this.element[0].getContext("2d");
+		
 		this.context.fillRect(0, 200, 500, 300);
 
 		var that = this;
