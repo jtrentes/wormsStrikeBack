@@ -9,7 +9,6 @@ var Canvas = Class.extend({
 		this.element = $("#main")[0];
 		this.context = this.element.getContext("2d");
 
-
 		this.context.fillRect(0, 200, 500, 300);
 	}
 });
